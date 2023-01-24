@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "skill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skills": {
+      "type": "richtext"
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": ["Trainee", "Novice", "Proficient", "Expert"]
+    },
+    "favourite": {
+      "type": "string"
+    },
+    "startedAt": {
+      "type": "date"
+    }
+  }
+}
